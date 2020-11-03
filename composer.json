@@ -1,0 +1,14 @@
+{
+    "name": "tharouet/post-manager",
+    "description": "convert post param to object",
+    "type": "library",
+    "license": "public",
+    "authors": [
+        {
+            "name": "tharouet",
+            "email": "60984127+tharouet@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
