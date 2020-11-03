@@ -1,7 +1,9 @@
 # PostManager
-This is a very simple class that handler the accepts the $_Post variables, sanitize them and conver the result to an object 
-Once you add this class to your code you will be able to accept the output of the class in the variable and use the form name as the class parameter
+This is a very simple class that accepts the $_Post variables, sanitize them and conver the result to an object 
 
+Once you add this class to your code you will be able to accept the output of the class in the variable and use the input form name as the class parameter.
+
+As this is a static method you will not need to instantiate it. 
 
 
 Example:
