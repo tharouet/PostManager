@@ -2,7 +2,7 @@
 
 namespace Tharouet\Controller;
 
-class Post
+class PostManager
 {
     public static function Capture()
     {
