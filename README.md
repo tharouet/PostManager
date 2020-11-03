@@ -7,19 +7,22 @@ Once you add this class to your code you will be able to accept the output of th
 Example:
 
 HTML Page
+/*
   <form action="result.php" method="POST">
     <input name="email" type="email">
     <input name="password" type="password">
   </form>
+*/
 
 
 
 PHP Code for result.php
-
+<?php
   use Tharouet/PostManager
   $MyForm = PostManager::Capture();
   echo $MyForm->email;
   echo $MyForm->password;
+ ?>
 
 
 
